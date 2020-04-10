@@ -4,6 +4,7 @@
 <head>
     <meta charset="utf-8">
     <title>ArgCoach</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
     <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="css/debate_question.css">
 </head>
@@ -11,23 +12,40 @@
 <body>
     <h1>Topic Selection</h1>
     <form>
-        <input type="radio" id="topic1" name="topic" value="topic1">
-        <label for="topic1">This house will punitively tax personal homeownership.</label><br>
-        <input type="radio" id="topic2" name="topic" value="topic2">
-        <label for="topic2">This house, given limited resources, W prioritize funding for early childhood care to the
-            exclusion of funding of post-secondary education.</label><br>
-        <input type="radio" id="topic3" name="topic" value="topic3">
-        <label for="topic3">This house believes that ASEAN [Association of Southeast Asian Nations] should adopt a
-            common currency.</label><br>
-        <input type="radio" id="topic4" name="topic" value="topic4">
-        <label for="topic4">This house believes that federal governments should suspend all funding to sub-national
-            governments (states in the USA and Mexico, provinces in Canada) that violate religious liberties.</label><br>
-        <input type="radio" id="topic5" name="topic" value="topic5">
-        <label for="topic5">This house believes that parents should teach their children that they are inherently special
-            (e.g., in what they deserve, and/or what they are capable of achieving).</label><br>
+        <div class="radiobtn">
+            <input type="radio" id="topic1" name="topic" value="topic1">
+            <label for="topic1">This house will punitively tax personal homeownership.</label><br>
+        </div>
+
+        <div class="radiobtn">
+            <input type="radio" id="topic2" name="topic" value="topic2">
+            <label for="topic2">This house, given limited resources, W prioritize funding for early childhood care to the
+                exclusion of funding of post-secondary education.</label><br>
+        </div>
+
+
+        <div class="radiobtn">
+            <input type="radio" id="topic3" name="topic" value="topic3">
+            <label for="topic3">This house believes that ASEAN [Association of Southeast Asian Nations] should adopt a
+                common currency.</label><br>
+        </div>
+
+        <div class="radiobtn">
+            <input type="radio" id="topic4" name="topic" value="topic4">
+            <label for="topic4">This house believes that federal governments should suspend all funding to sub-national
+                governments (states in the USA and Mexico, provinces in Canada) that violate religious liberties.</label><br>
+        </div>
+
+
+        <div class="radiobtn">
+            <input type="radio" id="topic5" name="topic" value="topic5">
+            <label for="topic5">This house believes that parents should teach their children that they are inherently special
+                (e.g., in what they deserve, and/or what they are capable of achieving).</label><br>
+        </div>
+
     </form>
 
-    <button type="button" name="button" onclick="window.location.href='record.html'">Next Step</button>
+    <button class="btn btn-light btn-lg next" type="button" name="button" onclick="window.location.href='record.html'">Next Step</button>
 </body>
 
 </html>

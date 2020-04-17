@@ -1,2 +1,12 @@
 h3{font-size: 15px;}
-#Myprofile{text-align: right;}
+h3{font-size: 15px;}
+#Myprofile{left:80%;
+position: relative;
+top:100px;}
+#curve_chart{left:50%;
+position: relative;
+margin-left: -450px;}
+#curve_chart2{left:50%;
+  position: relative;
+  margin-left: -450px;}
+

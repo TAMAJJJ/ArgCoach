@@ -1,6 +1,7 @@
 h1{text_align:center;}
-#Submit {top:200px;
-  left:60%;
+#Submit {top:400px;
+  left:50%;
+  left-margin:-40px;
   position:relative;
   padding: 15px 25px;
   font-size: 24px;
@@ -21,9 +22,9 @@ h1{text_align:center;}
   box-shadow: 0 5px #666;
   transform: translateY(4px);
 }
-#Record {top:200px;
+#Record {top:400px;
   left:50%;
-  
+  left-margin:2.5px;
   position:relative;
   padding: 15px 25px;
   font-size: 24px;

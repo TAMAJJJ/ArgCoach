@@ -1,4 +1,6 @@
-#Submit {left:80%;
+#Submit {left:50%;
+  margin-left:-40px;
+  top:400px;
   position:relative;
   padding: 15px 25px;
   font-size: 24px;
@@ -19,7 +21,10 @@
   box-shadow: 0 5px #666;
   transform: translateY(4px);
 }
-#Record {
+#Record {left:50%;
+  margin-left:2.5px;
+  top:400px;
+  position:relative;
   padding: 15px 25px;
   font-size: 24px;
   text-align: center;

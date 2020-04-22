@@ -44,23 +44,27 @@ h1{text_align:center;}
   box-shadow: 0 5px #666;
   transform: translateY(4px);
 }
-#Topic1{
-	position: fixed;
+#Topic1{position:fixed;
 	left:100px;
 	top:160px;
 	font-size: 20px;
 }
 #Topic2{
-position: fixed;
+position:fixed;
 	left:100px;
 	top:200px;
 font-size: 20px;
 
 }
 #Topic3{
-position: fixed;
+position:fixed;
 	left:100px;
 	top:240px;
 font-size: 20px;
 }
-
+#Topic4{
+position:fixed;
+	left:100px;
+	top:280px;
+font-size: 20px;
+}

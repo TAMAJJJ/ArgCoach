@@ -45,7 +45,6 @@ h1{text_align:center;}
   transform: translateY(4px);
 }
 #Topic1{
-	
 	position: fixed;
 	left:100px;
 	top:160px;
@@ -64,23 +63,4 @@ position: fixed;
 	top:240px;
 font-size: 20px;
 }
-#Topic4{
-	
-	position: fixed;
-	left:100px;
-	top:280px;
-	font-size: 20px;
-}
-#Topic5{
-position: fixed;
-	left:100px;
-	top:320px;
-font-size: 20px;
 
-}
-#Topic6{
-position: fixed;
-	left:100px;
-	top:360px;
-font-size: 20px;
-}

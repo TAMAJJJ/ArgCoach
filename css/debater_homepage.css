@@ -1,6 +1,4 @@
-#Submit {left:50%;
-  margin-left:-40px;
-  top:400px;
+#Submit {left:60%;
   position:relative;
   padding: 15px 25px;
   font-size: 24px;
@@ -22,8 +20,6 @@
   transform: translateY(4px);
 }
 #Record {left:50%;
-  margin-left:2.5px;
-  top:400px;
   position:relative;
   padding: 15px 25px;
   font-size: 24px;

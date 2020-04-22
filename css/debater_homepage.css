@@ -2,7 +2,7 @@ h1{text_align:center;}
 #Submit {top:450px;
   left:50%;
   left-margin:-12.5px;
-  position:relative;
+
   padding: 15px 25px;
   font-size: 24px;
   text-align: center;
@@ -53,30 +53,30 @@ h1{text_align:center;}
 #Topic2{
 position:absolute;
 	
-	top:40px;
+	top:200px;
 font-size: 20px;
 
 }
 #Topic3{
-position:fixed;
-	left:100px;
+position:absolute;
+	
 	top:240px;
 font-size: 20px;
 }
 #Topic4{
-position:fixed;
-	left:100px;
+position:absolute;
+	
 	top:280px;
 font-size: 20px;
 }
 #Topic5{
-position:fixed;
-	left:100px;
+position:absolute;
+	
 	top:320px;
 font-size: 20px;
 }
 #Topic6{
- position:fixed;
-	left:100px;
+ position:absolute;
+	
 	top:360px;
 	font-size:20px}

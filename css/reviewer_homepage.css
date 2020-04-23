@@ -1,3 +1,10 @@
-nav ul{height:200px; width:18%;}
+nav ul{position: absolute;
+  left:100px;
+  top:200px;
+  height:200px; width:18%;}
 nav ul{overflow:hidden; overflow-y:scroll;}
-
+#Instruction1{
+  position: absolute;
+  left:100px;
+  top:150px;
+}

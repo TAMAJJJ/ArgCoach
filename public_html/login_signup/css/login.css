@@ -1,0 +1,24 @@
+body{
+    background-color: black;
+    font-family: 'Comic Neue', cursive;
+}
+
+h1{
+    text-align: center;
+}
+
+.container{
+    margin-top: 10%;
+    width: 30%;
+    background-color: white;
+    padding: 3%;
+    box-shadow: 4px 4px 2px 2px #888888;
+}
+
+span{
+    color: red;
+}
+
+#help{
+    text-align: right;
+}

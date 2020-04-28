@@ -1,0 +1,85 @@
+h1{text_align:center;}
+#Submit {top:500px;
+  left:50%;
+  left-margin:-12.5px;
+  position:absolute;
+  padding: 15px 25px;
+  font-size: 24px;
+  text-align: center;
+  cursor: pointer;
+  outline: none;
+  color: #fff;
+  background-color: #4CAF50;
+  border: none;
+  border-radius: 15px;
+  box-shadow: 0 9px #999;
+}
+
+#Submit:hover {background-color: #3e8e41}
+
+#Submit:active {
+  background-color: #3e8e41;
+  box-shadow: 0 5px #666;
+  transform: translateY(4px);
+}
+#Record {top:400px;
+  left:50%;
+  left-margin:-12.5px;
+  position:absolute;
+  padding: 15px 25px;
+  font-size: 24px;
+  text-align: center;
+  cursor: pointer;
+  outline: none;
+  color: #fff;
+  background-color: #FF0000;
+  border: none;
+  border-radius: 15px;
+  box-shadow: 0 9px #999;
+}
+
+#Record:hover {background-color: #8B0000}
+
+#Record:active {
+  background-color: #8B0000;
+  box-shadow: 0 5px #666;
+  transform: translateY(4px);
+}
+#Topic1{position:absolute;
+	left:100px;
+	top:160px;
+	font-size: 20px;
+}
+#Topic2{
+position:absolute;
+	left:100px;
+	top:200px;
+font-size: 20px;
+
+}
+#Topic3{
+position:absolute;
+	left:100px;
+	top:240px;
+font-size: 20px;
+}
+#Topic4{
+position:absolute;
+	left:100px;
+	top:280px;
+font-size: 20px;
+}
+#Topic5{
+position:absolute;
+	left:100px;
+	top:320px;
+font-size: 20px;
+}
+#Topic6{
+ position:absolute;
+	left:100px;
+	top:360px;
+	font-size:20px}
+#Logout{top:80px;
+	position:absolute;
+	left:80%}

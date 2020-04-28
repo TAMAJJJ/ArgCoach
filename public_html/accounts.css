@@ -1,0 +1,45 @@
+
+.account-container{
+    margin: 3%;
+}
+
+.left{
+    background-color: black;
+    width: 23%;
+    float: right;
+    padding: 2%;
+    color: white;
+}
+
+.right{
+    margin-top: 3%;
+    float: right;
+    width: 100%;
+    overflow: hidden;
+}
+
+.image{
+    text-align: center;
+    width: 30%;
+    margin: 3% 0;
+}
+
+h1{
+    border-top: 4px solid lightgrey;
+    padding: 3% 0;
+}
+
+span{
+    font-weight: bolder;
+}
+
+.informations{
+    font-size: 20px;
+    line-height: 200%;
+}
+
+
+footer{
+    clear: both;
+    text-align: center;
+}

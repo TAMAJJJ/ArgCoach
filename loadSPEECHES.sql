@@ -3,4 +3,4 @@ INTO TABLE SPEECHES
 FIELDS TERMINATED BY ',' 
 ENCLOSED BY '"'
 LINES TERMINATED BY '\n'
-IGNORE 1 ROWS(SpeechID,DebaterID,topic,JudgeID,feedback,score,relevancy,pitch,fluency);
+IGNORE 1 ROWS(SpeechID,DebaterID,topic,JudgeID,feedback,transcript,score,relevancy,pitch,fluency);

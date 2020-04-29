@@ -22,10 +22,24 @@ if ($conn->query($sql) === TRUE) {
    echo "Error using  database: " . $conn->error;
 }
 // Query:
-$SpeechID = $_POST['SpeechID'];
-$DebaterID = $_POST['DebaterID'];
+
+session_start();
+
+$sql = "SELECT * FROM SPEECHES ORDER BY SpeechID DESC LIMIT 1;";
+
+$new_speechID = 1;
+
+$user_num = $conn->query($sql);
+if ($user_num->num_rows > 0){
+    $row = $user_num->fetch_assoc();
+    $new_SpeechID = $row["SpeechID"] + 1;
+}
+
+
+$DebaterID = $_SESSION['UserID'];
 $topic = $_POST['topic'];
 $audioFile = $_POST['audioFile'];
+$transcript = $_POST['transcript'];
 $JudgeID = $_POST['JudgeID'];
 $feedback = $_POST['feedback'];
 $score = $_POST['score'];
@@ -33,7 +47,9 @@ $relevancy = $_POST['relevancy'];
 $pitch = $_POST['pitch'];
 $fluency = $_POST['fluency'];
 
-$sql = "INSERT INTO USERS values ('$SpeechID','$DebaterID','$topic','http://betaweb.csug.rochester.edu/~xhu18/Audios/'+'$audioFile'+'.mp3','$JudgeID','$feedback','$score','$relevancy','$pitch','$fluency');";
+echo $DebaterID;
+
+$sql = "INSERT INTO USERS values ($new_speechID,$DebaterID,'$topic','http://betaweb.csug.rochester.edu/~xhu18/Audios/'+'$audioFile'+'.mp3','$transcript',$JudgeID,'$feedback','$score','$relevancy','$pitch','$fluency');";
 
 
 #$sql = "SELECT * FROM Students where Username like 'amai2';";
@@ -43,7 +59,7 @@ if ($result === TRUE) {
     echo "New record created successfully";
 } else {
     echo "Error: " . $sql . "<br>" . $conn->error;
-} 
+}
 //$stmt = $conn->prepare("Select * from Students Where Username like ?");
 //$stmt->bind_param("s", $username);
 //$result = $stmt->execute();
@@ -52,7 +68,7 @@ if ($result === TRUE) {
 
 <?php
 $conn->close();
-?>  
+?>
 
 </body>
 </html>

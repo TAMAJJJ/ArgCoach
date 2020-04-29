@@ -1,47 +1,47 @@
-SpeechID,DebaterID,topic,JudgeID,feedback,score,relevancy,pitch,fluency
-1,1,topic1,3,great,100,100,100,100
-2,2,topic2,3,great,100,100,100,100
-3,1,topic3,3,great,95,94,95,100
-4,3,topic4,4,ok,85,80,80,82
-5,4,topic6,2,need improvement,65,60,80,75
-6,2,topic5,1,nice,90,92,85,91
-7,6,topic1,1,unsatisfactory,50,30,80,40
-8,7,topic5,2,ok,82,80,80,84
-9,7,topic5,2,ok,84,80,83,86
-10,6,topic6,4,nice,92,93,91,92
-11,6,topic1,2,ok,81,80,83,82
-12,2,topic3,3,nice,90,91,92,89
-13,2,topic1,2,nice,91,92,90,90
-14,5,topic4,1,great,100,99,99,100
-15,5,topic3,2,great,100,98,100,98
-16,6,topic4,2,great,98,95,100,99
-17,6,topic2,2,nice,90,89,92,91
-18,6,topic1,2,nice,94,92,95,93
-19,6,topic6,2,great,99,98,100,97
-20,3,topic4,2,great,100,99,99,100
-21,6,topic5,,,,,,
-22,6,topic6,,,,,,
-23,1,topic2,,,,,,
-24,4,topic4,,,,,,
-25,2,topic1,,,,,,
-26,3,topic3,,,,,,
-27,7,topic2,,,,,,
-28,6,topic3,,,,,,
-29,4,topic2,,,,,,
-30,2,topic3,,,,,,
-31,1,topic5,,,,,,
-32,2,topic3,,,,,,
-33,4,topic5,,,,,,
-34,6,topic3,,,,,,
-35,5,topic1,,,,,,
-36,7,topic5,,,,,,
-37,3,topic3,,,,,,
-38,5,topic6,,,,,,
-39,4,topic2,,,,,,
-40,2,topic4,,,,,,
-41,1,topic6,,,,,,
-42,3,topic2,,,,,,
-43,5,topic2,,,,,,
-44,1,topic5,,,,,,
-45,1,topic3,,,,,,
-46,3,topic4,,,,,,
+SpeechID,DebaterID,topic,JudgeID,feedback,transcript,relevancy,pitch,fluency,score
+1,1,topic1,3,great,"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. ",100,100,100,100
+2,2,topic2,3,great,"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. ",100,100,100,100
+3,1,topic3,3,great,"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. ",94,95,100,95
+4,3,topic4,4,ok,"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. ",80,80,82,85
+5,4,topic6,2,need improvement,"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. ",60,80,75,65
+6,2,topic5,1,nice,"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. ",92,85,91,90
+7,6,topic1,1,unsatisfactory,"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. ",30,80,40,50
+8,7,topic5,2,ok,"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. ",80,80,84,82
+9,7,topic5,2,ok,"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. ",80,83,86,84
+10,6,topic6,4,nice,"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. ",93,91,92,92
+11,6,topic1,2,ok,"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. ",80,83,82,81
+12,2,topic3,3,nice,"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. ",91,92,89,90
+13,2,topic1,2,nice,"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. ",92,90,90,91
+14,5,topic4,1,great,"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. ",99,99,100,100
+15,5,topic3,2,great,"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. ",98,100,98,100
+16,6,topic4,2,great,"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. ",95,100,99,98
+17,6,topic2,2,nice,"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. ",89,92,91,90
+18,6,topic1,2,nice,"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. ",92,95,93,94
+19,6,topic6,2,great,"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. ",98,100,97,99
+20,3,topic4,2,great,"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. ",99,99,100,100
+21,6,topic5,,,"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. ",,,,
+22,6,topic6,,,"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. ",,,,
+23,1,topic2,,,"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. ",,,,
+24,4,topic4,,,"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. ",,,,
+25,2,topic1,,,"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. ",,,,
+26,3,topic3,,,"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. ",,,,
+27,7,topic2,,,"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. ",,,,
+28,6,topic3,,,"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. ",,,,
+29,4,topic2,,,"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. ",,,,
+30,2,topic3,,,"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. ",,,,
+31,1,topic5,,,"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. ",,,,
+32,2,topic3,,,"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. ",,,,
+33,4,topic5,,,"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. ",,,,
+34,6,topic3,,,"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. ",,,,
+35,5,topic1,,,"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. ",,,,
+36,7,topic5,,,"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. ",,,,
+37,3,topic3,,,"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. ",,,,
+38,5,topic6,,,"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. ",,,,
+39,4,topic2,,,"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. ",,,,
+40,2,topic4,,,"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. ",,,,
+41,1,topic6,,,"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. ",,,,
+42,3,topic2,,,"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. ",,,,
+43,5,topic2,,,"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. ",,,,
+44,1,topic5,,,"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. ",,,,
+45,1,topic3,,,"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. ",,,,
+46,3,topic4,,,"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. ",,,,

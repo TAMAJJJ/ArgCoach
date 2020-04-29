@@ -1,9 +1,9 @@
 <?php
 
-    require_once('db_setup.php');
+    require "db_setup.php";
     $sql ="USE xhu18_1;";
     if ($conn->query($sql) === TRUE) {
-       // echo "using Database tbiswas2_company";
+       //echo "using Database xhu18_1";
     } else {
        echo "Error using  database: " . $conn->error;
     }
@@ -18,16 +18,17 @@
      $feedback = $_POST['feedback'];
      $speechID = $_POST['speechID'];
 
+
      echo $speechID;
 
 
 
-      $sql = "UPDATE SPEECHES SET JudgeID = '$JudgeID', feedback = '$feedback', score = '$overall', relevancy = '$relevancy', pitch = '$pitch', fluency = '$fluency' WHERE SpeechID = '$speechID';";
+      $sql = "UPDATE SPEECHES SET JudgeID= '$JudgeID', feedback = '$feedback', score = '$overall', relevancy = '$relevancy', pitch = '$pitch', fluency = '$fluency' WHERE SpeechID = '$speechID';";
+      #$sql = "INSERT INTO SPEECHES values ('$speechID','','','$JudgeID','$feedback','$overall','$relevancy','$pitch','$fluency');";
       $result = $conn->query($sql);
 
       if ($result === TRUE) {
-          echo '<script>alert("Grade Submitted!")</script>';
-          header("Refresh:0; url=http://betaweb.csug.rochester.edu/~xhu18/coach_main.php"); 
+         //echo "Thanks For Grading!";
       } else {
          echo "Error using  database: " . $conn->error;
       }

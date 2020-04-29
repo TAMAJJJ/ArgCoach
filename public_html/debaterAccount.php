@@ -91,13 +91,13 @@
             //$result = $conn->query($sql);
 
                 echo"<table class='table' style='width:100%;'>";
-                echo"<thead class='thead-dark'><tr><th>Topic</th><th>Speech</th><th>JudgeID</th><th>Overall</th><th>Relevancy</th><th>Pitch</th><th>Fluency</th><th>Feedback</th><th>&ensp; &ensp;</th></tr></thead>\n";
+                echo"<thead class='thead-dark'><tr><th>Topic</th><th>Speech</th><th>Transcript</th><th>JudgeID</th><th>Overall</th><th>Relevancy</th><th>Pitch</th><th>Fluency</th><th>Feedback</th></tr></thead>\n";
                 echo"<tbody>";
 
                 while($row = mysqli_fetch_assoc($result)){
                     $speechID = $row['SpeechID'];
                     $audio_source = "http://betaweb.csug.rochester.edu/~xhu18/Audios/{$speechID}.mp3";
-                    echo"<tr><th scope='row'>{$row['topic']}</th><td><audio controls style='height:30px;'><source src='{$audio_source}' type='audio/mpeg'>Your browser does not support the audio element.</audio></td><td>{$row['JudgeID']}</td><td>{$row['score']}</td><td>{$row['relevancy']}</td><td>{$row['pitch']}</td><td>{$row['fluency']}</td><td>{$row['feedback']}</td><td><a href='delete_speech.php?DebaterID=$DebaterID'>Delete</a></td></tr>\n";
+                    echo"<tr><th scope='row'>{$row['topic']}</th><td><audio controls style='height:30px;'><source src='{$audio_source}' type='audio/mpeg'>Your browser does not support the audio element.</audio></td><td>{$row['transcript']}</td><td>{$row['JudgeID']}</td><td>{$row['score']}</td><td>{$row['relevancy']}</td><td>{$row['pitch']}</td><td>{$row['fluency']}</td><td>{$row['feedback']}</td>\</tr>\n";
                 }
                 echo"</tbody>";
                 echo"</table>";

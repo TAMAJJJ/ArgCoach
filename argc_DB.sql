@@ -17,6 +17,7 @@ CREATE TABLE USERS(
     relevancy INT(10) DEFAULT 0,
     pitch INT(10) DEFAULT 0,
     fluency INT(10) DEFAULT 0,
+    transcript VARCHAR(1000) DEFAULT NULL,
 	PRIMARY KEY (SpeechID)
     -- FOREIGN KEY(DebaterID) 
     -- REFERENCES USERS(UserID),

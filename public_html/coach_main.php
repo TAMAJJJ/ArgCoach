@@ -115,11 +115,11 @@
 
         <div class="payment-popup">
          <div class="form-popup" id="popupForm">
-           <form action="add_feedback.php" class="form-container" style="text-align:left;">
+           <form action="add_feedback.php" class="form-container" style="text-align:left;" method="post">
              <h2>Your Feedback</h2>
 
              <label for="fluency"><strong>SpeechID</strong></label>
-             <input type="number" id="fluency" name="fluency" required>
+             <input type="number" id="fluency" name="speechID" required>
              <br>
 
 
@@ -173,13 +173,13 @@
 
 
                  echo"<table class='table' style='width:100%;'>";
-                 echo"<thead class='thead-dark'><tr><th>SpeechID</th><th>Topic</th><th>Speech</th></tr></thead>\n";
+                 echo"<thead class='thead-dark'><tr><th>SpeechID</th><th>Topic</th><th>Speech</th><th>Transcript</th></tr></thead>\n";
                  echo"<tbody>";
 
                  while($row = mysqli_fetch_assoc($result)){
                      $speechID = $row['SpeechID'];
                      $audio_source = "http://betaweb.csug.rochester.edu/~xhu18/Audios/{$speechID}.mp3";
-                     echo"<tr><th scope='row'>{$row['SpeechID']}</th><td>{$row['topic']}</td><td><audio controls style='width:400px;height:30px;'><source src='{$audio_source}' type='audio/mpeg'>Your browser does not support the audio element.</audio></td></tr>\n";
+                     echo"<tr><th scope='row'>{$row['SpeechID']}</th><td>{$row['topic']}</td><td><audio controls style='width:400px;height:30px;'><source src='{$audio_source}' type='audio/mpeg'>Your browser does not support the audio element.</audio></td><td>{$row['transcript']}</td></tr>\n";
                  }
                  echo"</tbody>";
                  echo"</table>";
